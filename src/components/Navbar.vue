@@ -8,5 +8,7 @@
       <RouterLink to="/projects" class="mr-4 hover:text-orange-400">Projects</RouterLink>
       <RouterLink to="/contact" class="hover:text-orange-400">Contact</RouterLink>
     </nav>
+
+    <Darkmode />
   </nav>
 </template>

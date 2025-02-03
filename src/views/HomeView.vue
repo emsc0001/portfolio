@@ -4,11 +4,11 @@
       Hello, I’m <span class="text-orange-400">Emil Schlichter</span>
     </h1>
     <p class="text-lg md:text-xl text-gray-400 typing-text">
-      testing working yes it is working dingeling
+      I’m a Full Stack Developer based in Copenhagen, Denmark.
     </p>
 
     <div class="hidden-text mt-6">
-      <p class="text-gray-600 opacity-40">testing working yes it is working dingeling</p>
+      <p class="text-gray-600 opacity-40">pssst.. I am still studying computer science at KEA</p>
     </div>
   </section>
 </template>

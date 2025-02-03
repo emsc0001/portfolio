@@ -1,18 +1,15 @@
 <template>
-  <!-- About Me Section -->
   <section class="min-h-screen grid place-items-center px-6 bg-grid text-white">
     <div class="max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-      <!-- Left: About Me Content -->
       <div>
         <h1 class="text-4xl font-bold text-white mb-4">About Me</h1>
         <p class="text-gray-300 leading-relaxed">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-          been the industry's standard dummy text ever since the 1500s, when an unknown printer took
-          a galley of type and scrambled it to make a type specimen book.
+          Hi, I’m Emil Schlichter, I've previously worked as a professional esport athlete in games
+          like CS2 & Valorant. Now I am a passionate Computer Science student with a love for
+          building modern, high-performance websites and applications [like this one].
         </p>
       </div>
 
-      <!-- Right: Profile Image + GitHub Link -->
       <div class="flex flex-col items-center">
         <img
           src="../assets/pictures/image.png"
@@ -29,11 +26,17 @@
     </div>
   </section>
 
-  <!-- Skills Section -->
-  <section class="py-16 px-6 bg-grid text-white">
+  <section>
+    <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2">
+      <a href="#skills" class="text-white text-3xl animate-bounce"> ↓ </a>
+    </div>
+  </section>
+
+  <section id="skills" class="py-16 px-6 bg-grid text-white -mt-12 relative">
     <h2 class="text-4xl font-bold text-center mb-6">Skills</h2>
+
     <ul
-      class="grid grid-cols-2 md:grid-cols-4 gap-4 text-gray-300 text-lg text-center max-w-4xl mx-auto"
+      class="grid grid-cols-2 md:grid-cols-4 gap-6 text-gray-300 text-lg text-center max-w-4xl mx-auto"
     >
       <li class="skill-box">HTML</li>
       <li class="skill-box">CSS</li>
@@ -48,14 +51,12 @@
 </template>
 
 <style scoped>
-/* Grid Background */
 .bg-grid {
   background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
   background-size: 50px 50px;
 }
 
-/* Skill Boxes */
 .skill-box {
   background: #1e1e1e;
   padding: 1rem;
