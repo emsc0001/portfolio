@@ -22,7 +22,7 @@
         Visit My GitHub →
       </a>
       <a
-        href="https://linkedIn.com/emil-schlichter"
+        href="https://www.linkedin.com/in/emilschlichter/"
         class="text-blue-400 hover:text-blue-500 transition text-lg"
         target="_blank"
       >
