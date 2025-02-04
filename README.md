@@ -1,7 +1,7 @@
-# portfolje
+# Portfolio
 
-My Portfolio
-Created with Vue.js & GSAP
+My Portfolio is
+Created with Vue.js, Tailwind & GSAP
 
 ## Project Setup
 
