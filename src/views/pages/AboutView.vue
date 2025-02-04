@@ -32,11 +32,11 @@
     <ul
       class="grid grid-cols-2 md:grid-cols-4 gap-6 text-gray-300 text-lg text-center max-w-4xl mx-auto"
     >
-      <li class="skill-box">HTML</li>
-      <li class="skill-box">CSS</li>
+      <li class="skill-box">HTML/CSS</li>
       <li class="skill-box">JavaScript</li>
       <li class="skill-box">React</li>
       <li class="skill-box">Vue.js</li>
+      <li class="skill-box">MySQL</li>
       <li class="skill-box">Node.js</li>
       <li class="skill-box">Java</li>
       <li class="skill-box">Spring Boot</li>
