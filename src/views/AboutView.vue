@@ -1,12 +1,12 @@
 <template>
-  <section class="min-h-screen grid place-items-center px-6 bg-grid text-white">
+  <section class="py-20 px-6 place-items-center bg-grid text-white">
     <div class="max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
       <div>
         <h1 class="text-4xl font-bold text-white mb-4">About Me</h1>
         <p class="text-gray-300 leading-relaxed">
           Hi, I’m Emil Schlichter, I've previously worked as a professional esport athlete in games
           like CS2 & Valorant. Now I am a passionate Computer Science student with a love for
-          building modern, high-performance websites and applications [like this one].
+          building modern, high-performance websites and applications.
         </p>
       </div>
 
@@ -26,17 +26,11 @@
     </div>
   </section>
 
-  <section>
-    <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2">
-      <a href="#skills" class="text-white text-3xl animate-bounce"> ↓ </a>
-    </div>
-  </section>
-
-  <section id="skills" class="py-16 px-6 bg-grid text-white -mt-12 relative">
+  <section id="skills" class="py-20 px-6 bg-grid text-white relative">
     <h2 class="text-4xl font-bold text-center mb-6">Skills</h2>
 
     <ul
-      class="grid grid-cols-2 md:grid-cols-4 gap-6 text-gray-300 text-lg text-center max-w-4xl mx-auto"
+      class="grid grid-cols-2 md:grid-cols-4 gap-6 text-gray-300 text-lg text-center max-w-5xl mx-auto"
     >
       <li class="skill-box">HTML</li>
       <li class="skill-box">CSS</li>

@@ -1,13 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Navbar from './components/Navbar.vue'
-import Darkmode from './components/Darkmode.vue'
 </script>
 
 <template>
   <main>
     <Navbar />
     <RouterView />
-    <Darkmode />
+    <footer class="text-white lg:px-6 py-6">
+      <div class="text-center">© 2025 Emil Kim Schlichter - All rights reserved.</div>
+    </footer>
   </main>
 </template>

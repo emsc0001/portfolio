@@ -8,7 +8,9 @@
     </p>
 
     <div class="hidden-text mt-6">
-      <p class="text-gray-600 opacity-40">pssst.. I am still studying computer science at KEA</p>
+      <p class="text-gray-600 opacity-40">
+        pssst.. just kidding. I'm still a computer science student at KEA.
+      </p>
     </div>
   </section>
 </template>
@@ -29,7 +31,7 @@
   white-space: nowrap;
   border-right: 3px solid #ffffff;
   width: 0;
-  animation: typing 3s steps(40, end) forwards;
+  animation: typing 5s steps(40, end) infinite;
 }
 
 .hidden-text {

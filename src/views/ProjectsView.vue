@@ -1,7 +1,6 @@
 <template>
   <section class="min-h-screen grid place-items-center px-6 bg-grid text-white">
     <div class="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-      <!-- Left Side: Title & Description -->
       <div class="text-left">
         <h2 class="text-4xl font-bold mb-4">Projects</h2>
         <p class="text-gray-300 leading-relaxed">
@@ -10,7 +9,6 @@
         </p>
       </div>
 
-      <!-- Right Side: Project Grid -->
       <div class="grid grid-cols-1 gap-6">
         <div v-for="project in projects" :key="project.id" class="project-card">
           <img
@@ -55,14 +53,13 @@ export default {
 </script>
 
 <style scoped>
-/* Grid Background */
 .bg-grid {
   background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
   background-size: 50px 50px;
 }
 
-/* Project Card */
+
 .project-card {
   background: #1e1e1e;
   border-radius: 8px;
