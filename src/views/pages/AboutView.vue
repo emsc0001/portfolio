@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 px-6 place-items-center bg-grid text-white">
+  <section class="py-40 px-8 place-items-center bg-grid text-white">
     <div class="max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
       <div>
         <h1 class="text-4xl font-bold text-white mb-4">About Me</h1>
@@ -12,7 +12,7 @@
 
       <div class="flex flex-col items-center">
         <img
-          src="../assets/pictures/image.png"
+          src="../src/assets/pictures/image.png"
           class="w-48 h-48 md:w-56 md:h-56 rounded-full shadow-lg border-4 border-white"
         />
         <a
@@ -26,11 +26,11 @@
     </div>
   </section>
 
-  <section id="skills" class="py-20 px-6 bg-grid text-white relative">
+  <section id="skills" class="py-10 px-6 bg-grid text-white relative">
     <h2 class="text-4xl font-bold text-center mb-6">Skills</h2>
 
     <ul
-      class="grid grid-cols-2 md:grid-cols-4 gap-6 text-gray-300 text-lg text-center max-w-5xl mx-auto"
+      class="grid grid-cols-2 md:grid-cols-4 gap-6 text-gray-300 text-lg text-center max-w-4xl mx-auto"
     >
       <li class="skill-box">HTML</li>
       <li class="skill-box">CSS</li>
