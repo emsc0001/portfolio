@@ -1,28 +1,17 @@
-# portfolje
+# 🚀 Personal Portfolio Website
 
-My Portfolio
-Created with Vue.js & GSAP
+This is my **personal portfolio website** built with **Vue.js** and **GSAP (GreenSock Animation Platform)** to showcase my projects, skills, and experience created during my internship at Dwarf
 
-## Project Setup
+## 🖥️ Live Demo
+🔗 [View Live Portfolio](https://emsc0001.github.io/portfolio)
 
-```sh
-npm install
-```
+---
 
-### Compile and Hot-Reload for Development
+## 🛠️ Technologies Used
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+| Tech | Description |
+|------|------------|
+| **Vue 3** | JavaScript framework for building the UI |
+| **Tailwind CSS** | Utility-first CSS framework for styling |
+| **GSAP (GreenSock)** | For smooth animations & scroll effects |
+| **Vite** | Fast development build tool for Vue |
