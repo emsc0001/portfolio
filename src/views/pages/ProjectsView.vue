@@ -59,7 +59,6 @@ export default {
   background-size: 50px 50px;
 }
 
-
 .project-card {
   background: #1e1e1e;
   border-radius: 8px;
