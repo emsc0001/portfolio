@@ -1,5 +1,28 @@
+# Node.js dependencies
 node_modules/
 dist/
 .vscode/
-.DS_Store
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
 .env
+.env.local
+.env.development
+.env.production
+
+# Editor Configs (optional)
+.editorconfig
+.gitattributes
+.prettierrc.json
+eslint.config.js
+
+# Package Manager Lock Files (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
