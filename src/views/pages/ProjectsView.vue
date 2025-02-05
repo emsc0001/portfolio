@@ -51,7 +51,7 @@ export default {
           description:
             'A small exam project for the DSA course, where we created Minesweeper in JavaScript.',
           image: 'src/assets/pictures/Screenshot 2025-02-03 at 17.51.31.png',
-          link: 'https://github.com/emsc0001',
+          link: 'https://github.com/tora0001/DSA-eksamensprojekt',
         },
       ],
     }
