@@ -8,17 +8,8 @@ import { glitchEffect } from '../utils/gsapAnimations.js'
 
 onMounted(() => {
   glitchEffect('.hero-title-es')
-})
-
-onMounted(() => {
   magneticHoverEffect('.nav-links button')
-})
-
-onMounted(() => {
   fadeInPage()
-})
-
-onMounted(() => {
   interactiveGridEffect()
 })
 </script>

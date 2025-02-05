@@ -12,10 +12,6 @@ export function scrollTo(target) {
   })
 }
 
-/**
- * Creates a magnetic hover effect for elements.
- * @param {string} selector
- */
 export function magneticHoverEffect(selector) {
   const elements = document.querySelectorAll(selector)
 
@@ -39,9 +35,6 @@ export function magneticHoverEffect(selector) {
   })
 }
 
-/**
- * Creates a smooth fade transition between pages.
- */
 export function pageTransition() {
   gsap.to('body', {
     opacity: 0,
@@ -52,17 +45,10 @@ export function pageTransition() {
   })
 }
 
-/**
- * Applies fade-in animation when a new page loads.
- */
 export function fadeInPage() {
   gsap.from('body', { opacity: 0, duration: 1 })
 }
 
-/**
- * Adds a smooth parallax effect.
- * @param {string} selector
- */
 export function smoothParallax(selector) {
   gsap.utils.toArray(selector).forEach((el) => {
     gsap.to(el, {
@@ -78,10 +64,6 @@ export function smoothParallax(selector) {
   })
 }
 
-/**
- * Glitch effect on text.
- * @param {string} selector
- */
 export function glitchEffect(selector) {
   gsap.to(selector, {
     keyframes: [
@@ -96,16 +78,24 @@ export function glitchEffect(selector) {
 }
 
 export function interactiveGridEffect() {
-  document.addEventListener('mousemove', (e) => {
-    const { clientX, clientY } = e
-    const moveX = (clientX / window.innerWidth - 0.5) * 40
-    const moveY = (clientY / window.innerHeight - 0.5) * 40
+  let timeoutId
 
-    gsap.to(document.documentElement, {
-      '--bg-x': `${moveX}px`,
-      '--bg-y': `${moveY}px`,
-      duration: 0.3,
-      ease: 'power2.out',
-    })
+  document.addEventListener('mousemove', (e) => {
+    if (timeoutId) {
+      clearTimeout(timeoutId)
+    }
+
+    timeoutId = setTimeout(() => {
+      const { clientX, clientY } = e
+      const moveX = (clientX / window.innerWidth - 0.5) * 40
+      const moveY = (clientY / window.innerHeight - 0.5) * 40
+
+      gsap.to(document.documentElement, {
+        '--bg-x': `${moveX}px`,
+        '--bg-y': `${moveY}px`,
+        duration: 0.3,
+        ease: 'power2.out',
+      })
+    }, 5)
   })
 }
