@@ -98,7 +98,7 @@ export function glitchEffect(selector) {
 export function interactiveGridEffect() {
   document.addEventListener('mousemove', (e) => {
     const { clientX, clientY } = e
-    const moveX = (clientX / window.innerWidth - 0.5) * 40 // Adjust range
+    const moveX = (clientX / window.innerWidth - 0.5) * 40
     const moveY = (clientY / window.innerHeight - 0.5) * 40
 
     gsap.to(document.documentElement, {

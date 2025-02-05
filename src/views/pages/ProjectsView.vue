@@ -22,7 +22,7 @@
             <a
               :href="project.link"
               target="_blank"
-              class="text-blue-400 hover:text-blue-500 mt-2 inline-block"
+              class="text-orange-400 hover:text-orange-500 mt-2 inline-block"
             >
               View Project →
             </a>
