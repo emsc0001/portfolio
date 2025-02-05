@@ -1,32 +1,14 @@
-# Ignore node_modules directory
+# Ignore macOS system files
+.DS_Store
+
+# Ignore VSCode settings (if not needed)
+.vscode/
+
+# Ignore node_modules (should not be committed)
 node_modules/
 
-# Ignore log files
-*.log
-
-# Ignore build directories
+# Ignore log and cache files
+npm-debug.log
+yarn-error.log
+.nuxt/
 dist/
-build/
-
-# Ignore environment variable files
-.env
-
-# Ignore OS generated files
-.DS_Store
-Thumbs.db
-
-# Ignore IDE specific files
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# Ignore coverage reports
-coverage/
-
-# Ignore temporary files
-*.tmp
-*.temp
