@@ -4,13 +4,6 @@ import AboutView from './pages/AboutView.vue'
 import ProjectsView from './pages/ProjectsView.vue'
 import ContactView from './pages/ContactView.vue'
 
-// GSAP
-import { gsap } from 'gsap'
-import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-
-gsap.registerPlugin(ScrollToPlugin, ScrollTrigger)
-
 export default {
   components: {
     HomeView,
@@ -23,19 +16,19 @@ export default {
 
 <template>
   <div>
-    <section id="home" class="fade-in">
+    <section id="home" class="">
       <HomeView />
     </section>
 
-    <section id="about" class="fade-in">
+    <section id="about" class="">
       <AboutView />
     </section>
 
-    <section id="projects" class="fade-in">
+    <section id="projects" class="">
       <ProjectsView />
     </section>
 
-    <section id="contact" class="fade-in">
+    <section id="contact" class="">
       <ContactView />
     </section>
   </div>

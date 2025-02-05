@@ -2,7 +2,7 @@
   <section class="min-h-screen grid place-items-center px-6 bg-grid text-white">
     <div class="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
       <div class="text-left">
-        <h2 class="text-4xl font-bold mb-4">Projects</h2>
+        <h2 class="hero-title text-4xl font-bold mb-4">Projects</h2>
         <p class="text-gray-300 leading-relaxed">
           Here are some of the projects I’ve worked on. Each project reflects my passion for clean,
           high-performance development.
@@ -34,6 +34,13 @@
 </template>
 
 <script>
+import { onMounted } from 'vue'
+import { glitchEffect } from '../../utils/gsapAnimations.js'
+
+onMounted(() => {
+  glitchEffect('.hero-title')
+})
+
 export default {
   data() {
     return {

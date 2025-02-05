@@ -1,6 +1,15 @@
+<script>
+import { onMounted } from 'vue'
+import { glitchEffect } from '../../utils/gsapAnimations.js'
+
+onMounted(() => {
+  glitchEffect('.hero-title')
+})
+</script>
+
 <template>
   <section class="min-h-screen flex flex-col justify-center items-center px-6 bg-grid text-white">
-    <h2 class="text-4xl font-bold mb-2 text-center">Contact Me</h2>
+    <h2 class="hero-title text-4xl font-bold mb-2 text-center">Contact Me</h2>
 
     <div class="flex flex-col space-y-6 text-gray-300">
       <p class="text-lg">
@@ -22,7 +31,7 @@
         GitHub
       </a>
       <a
-        href="https://www.linkedin.com/in/emilschlichter/"
+        href="https://www.linkedin.com/ßin/emilschlichter/"
         class="text-blue-400 hover:text-blue-500 transition text-lg mx-auto"
         target="_blank"
       >
