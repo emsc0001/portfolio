@@ -5,12 +5,19 @@ body {
   background-color: #0d0d0d;
   color: #d4d4d4;
   font-family: 'Fira Code', monospace;
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .bg-grid {
+  position: relative;
   background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
   background-size: 50px 50px;
+  background-position: var(--bg-x, 0px) var(--bg-y, 0px);
+  transition: background-position 0.1s ease-out;
 }
 
 .hero {
@@ -26,14 +33,14 @@ body {
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  white-space: nowrap;
 }
 
-.hero-img {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  object-fit: cover;
+.hero-highlight {
+  color: #ff8c32;
+  font-weight: 600;
 }
 
 .cta {
@@ -43,12 +50,4 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-
-a,
-.green {
-  text-decoration: none;
-  color: rgb(0, 129, 189);
-  transition: 0.4s;
-  padding: 3px;
 }

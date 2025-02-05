@@ -95,30 +95,17 @@ export function glitchEffect(selector) {
   })
 }
 
-/**
- * Glitch effect on text.
- * @param {string} selector
- */
-export function glitchEffectES(selector) {
-  gsap.to(selector, {
-    keyframes: [
-      { x: -2, skewX: '10deg', duration: 2 },
-      { x: 2, skewX: '-10deg', duration: 2 },
-      { x: 0, skewX: '0deg', duration: 2 },
-    ],
-    repeat: -1,
-    repeatDelay: 3,
-    ease: 'power2.inOut',
-  })
-}
-/**
- * Glitch effect on text.
- * @param {string} selector -
- */
-export function glitchEffectES(selector) {
-  gsap.to(selector, {
-    repeat: -1,
-    repeatDelay: 2.5,
-    ease: 'power4.inOut',
+export function interactiveGridEffect() {
+  document.addEventListener('mousemove', (e) => {
+    const { clientX, clientY } = e
+    const moveX = (clientX / window.innerWidth - 0.5) * 40 // Adjust range
+    const moveY = (clientY / window.innerHeight - 0.5) * 40
+
+    gsap.to(document.documentElement, {
+      '--bg-x': `${moveX}px`,
+      '--bg-y': `${moveY}px`,
+      duration: 0.3,
+      ease: 'power2.out',
+    })
   })
 }

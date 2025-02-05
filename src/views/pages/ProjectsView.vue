@@ -60,12 +60,6 @@ export default {
 </script>
 
 <style scoped>
-.bg-grid {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-  background-size: 50px 50px;
-}
-
 .project-card {
   background: #1e1e1e;
   border-radius: 8px;

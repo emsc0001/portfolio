@@ -1,13 +1,13 @@
 <script setup>
-import { scrollTo } from '../utils/gsapAnimations.js'
 import { onMounted } from 'vue'
+import { scrollTo } from '../utils/gsapAnimations.js'
 import { fadeInPage } from '../utils/gsapAnimations.js'
 import { magneticHoverEffect } from '../utils/gsapAnimations.js'
-import { smoothParallax } from '../utils/gsapAnimations.js'
-import { glitchEffectES } from '../utils/gsapAnimations.js'
+import { interactiveGridEffect } from '../utils/gsapAnimations.js'
+import { glitchEffect } from '../utils/gsapAnimations.js'
 
 onMounted(() => {
-  glitchEffectES('.hero-title')
+  glitchEffect('.hero-title-es')
 })
 
 onMounted(() => {
@@ -19,7 +19,7 @@ onMounted(() => {
 })
 
 onMounted(() => {
-  smoothParallax()
+  interactiveGridEffect()
 })
 </script>
 

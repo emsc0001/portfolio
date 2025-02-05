@@ -25,14 +25,14 @@ onMounted(() => {
       </div>
       <a
         href="https://github.com/emsc0001"
-        class="text-blue-400 hover:text-blue-500 transition text-lg mx-auto"
+        class="text-orange-400 hover:text-orange-600 transition text-lg mx-auto"
         target="_blank"
       >
         GitHub
       </a>
       <a
         href="https://www.linkedin.com/ßin/emilschlichter/"
-        class="text-blue-400 hover:text-blue-500 transition text-lg mx-auto"
+        class="text-orange-400 hover:text-orange-600 transition text-lg mx-auto"
         target="_blank"
       >
         LinkedIn

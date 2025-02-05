@@ -26,7 +26,7 @@ onMounted(() => {
         />
         <a
           href="https://github.com/emsc0001"
-          class="mt-4 text-blue-400 hover:text-blue-500 transition text-lg"
+          class="mt-4 text-orange-400 hover:text-orange-600 transition text-lg"
           target="_blank"
         >
           Visit My GITHUB
@@ -50,16 +50,14 @@ onMounted(() => {
       <li class="skill-box">Java</li>
       <li class="skill-box">Spring Boot</li>
     </ul>
+
+    <ul class="grid md:grid-cols-1 gap-5 text-gray-300 text-lg text-center max-w-4xl mx-auto mt-6">
+      <li class="skill-box">Counter Strike</li>
+    </ul>
   </section>
 </template>
 
 <style scoped>
-.bg-grid {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-  background-size: 50px 50px;
-}
-
 .skill-box {
   background: #1e1e1e;
   padding: 1rem;
