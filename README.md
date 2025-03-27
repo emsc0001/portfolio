@@ -3,7 +3,7 @@
 This is my **personal portfolio website** built with **Vue.js** and **GSAP (GreenSock Animation Platform)** to showcase my projects, skills, and experience created during my internship at Dwarf
 
 ## 🖥️ Live Demo
-🔗 [View Live Portfolio]((https://portfolio-xi-five-43.vercel.app/))
+[🔗 View Live Portfolio](https://portfolio-xi-five-43.vercel.app/)
 
 ---
 
